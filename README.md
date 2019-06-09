@@ -3,3 +3,7 @@
 ## Beginning Checklist
 - VM of CentOS 7 (Gnome)
 - VM of CentOS 7 (minimal/command line)
+
+## Document Links (repo)
+- [RH124](/Documents/RH124.md)
+
