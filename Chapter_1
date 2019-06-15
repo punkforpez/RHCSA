@@ -16,3 +16,8 @@ in a web browser, navigate to 127.0.0.1/directory/of/mounted/file
 A page showing the server is running properly will display
 
 ** Port 80 must be open in the firewall **
+
+
+CONFIGURE APACHE AS INSTALLATION SERVER
+
+
