@@ -6,4 +6,4 @@ I have finally committed to this, after who knows how many years of thinking abo
 ### This is going to be great
 Having someone to study with really makes all of the difference for me.  It's going to be great being able to track and follow the steps we are both taking and to be able to contrast notes with each other.
 
-*-Brad, June 14 2019
+*-Brad, June 14 2019*
