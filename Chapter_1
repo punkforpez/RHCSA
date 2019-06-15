@@ -1,9 +1,16 @@
-CREATING FTP/APACHE SERVER
-Mounting ISO file
+Creating FTP Folder
 
+1. Mounting ISO file
 cd to directory where file is located
-  # mount -o loop FILENAME.iso /directory/of/file
-
+	# mount -o loop FILENAME.iso /directory/of/file
 to unmount a loop
-  # umount -d FILENAME.iso
+	# umount -d FILENAME.iso
 
+2. Install and configure Apache Server
+	# yum -y install httpd
+	# systemctl start httpd
+	# systemctl enable httpd
+
+3. Verify the Apache Server is enabled and running properly
+in a web browser, navigate to 127.0.0.1/directory/of/mounted/file
+A page showing the server is running properly will display
