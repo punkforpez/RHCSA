@@ -2,14 +2,20 @@ Chapter One Summary:
 
 #############################################################################################
 
-- This is a basic intro chapter that describes the testing processes and differences between RHCSA and RHCE.  This book covers study material for both exams. The RHCSA exam is covered in Chapters 1-9.
-- Acquiring Red Hat Linux can be done so through a paid subscription to Red Hat or using a third-party rebuild (CentOS).  CentOS is functionally identical to RHEL without access to subscription management.
-- RHCSA requires the configuration of a physical machine as virtual host.
+- This is a basic intro chapter that describes the testing processes and differences between 
+RHCSA and RHCE.  This book covers study material for both exams. The RHCSA exam is covered in 
+Chapters 1-9. - Acquiring Red Hat Linux can be done so through a paid subscription to Red Hat or 
+using a third-party rebuild (CentOS).  CentOS is functionally identical to RHEL without access to 
+subscription management. - RHCSA requires the configuration of a physical machine as virtual 
+host. 
+
 - Minimum partitioning scheme:
 	/dev/sda1	/mount
 	/dev/sda2	/
-	/dev/sda3	swap
-- Deploy HTTP and FTP servers to practice with RHEL installs over network (not required for exam but good to know)
+	/dev/sda3	swap 
+
+- Deploy HTTP and FTP servers to practice with RHEL installs over 
+network (not required for exam but good to know)
 	+Default services for FTP are vsFTP
 	+Default services for HTTP are Apache web server (httpd)
 - Use installation files from RHEL install DVD for transfer server content
