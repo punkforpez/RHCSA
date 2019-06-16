@@ -14,7 +14,7 @@ subscription management.
 host. 
 
 - Minimum partitioning scheme:
-	/dev/sda1	/mount
+	/dev/sda1	/boot
 	/dev/sda2	/
 	/dev/sda3	swap 
 
