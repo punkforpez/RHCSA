@@ -26,24 +26,40 @@ network (not required for exam but good to know)
 
 #############################################################################################
 
+** Port 80 must be open in the firewall **
+
 Creating HTTP (Apache) Server Folder
 
 1. Mounting ISO file
 cd to directory where file is located
-	# mount -o loop FILENAME.iso /directory/of/file
+	# sudo mount -o loop FILENAME.iso /directory/of/file
 to unmount a loop
-	# umount -d FILENAME.iso
+	# sudo umount -d FILENAME.iso
 
 2. Install and configure Apache Server
-	# yum -y install httpd
-	# systemctl start httpd
-	# systemctl enable httpd
+	# sudo yum -y install httpd
+	# sudo systemctl start httpd
+	# sudo systemctl enable httpd
 
-3. Verify the Apache Server is enabled and running properly
-in a web browser, navigate to 127.0.0.1/directory/of/mounted/file
+3. Create a subdirectory for your files (Apache files standard directory is /var/www/html)
+	# sudo mkdir /var/www/html/inst
+
+4. Copy files from mounted DVD over to the HTML directory
+	# sudo cp -a /media/. /var/www/html/inst/
+
+5. Ensure proper permissions are applied
+	# sudo chcon -R --reference=/var/www/html /var/www/html/inst		
+
+6. Configure server to run and enable to start on boot
+	# sudo firewall-cmd --permanent --add-service=http
+	# sudo firewall-cmd --reloadk
+	# sudo systemctl restart httpd
+	# sudo systemctl enable httpd
+
+6. Verify the Apache Server is enabled and running properly
+in a web browser, navigate to 127.0.0.1/inst
 A page showing the server is running properly will display
 
-** Port 80 must be open in the firewall **
 
 CREATING FTP Server
 
@@ -61,3 +77,7 @@ CREATING FTP Server
 	# sudo systemctl enable vsftpd
 
 
+5. Navigate to FTP via web browser
+	ftp://127.0.0.1/
+
+6. /pub directory shown in FTP server is located /var/ftp/pub
