@@ -1,0 +1,13 @@
+Creating FTP
+
+Mounting ISO file
+
+cd to directory where file is located
+,,,
+# mount -o loop FILENAME.iso /directory/of/file
+,,,
+
+to unmount a loop
+,,,
+# umount -d FILENAME.iso
+,,,
