@@ -56,7 +56,7 @@ to unmount a loop
 	# sudo systemctl restart httpd
 	# sudo systemctl enable httpd
 
-6. Verify the Apache Server is enabled and running properly
+7. Verify the Apache Server is enabled and running properly
 in a web browser, navigate to 127.0.0.1/inst
 A page showing the server is running properly will display
 
