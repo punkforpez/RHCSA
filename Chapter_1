@@ -4,9 +4,13 @@ Chapter One Summary:
 
 - This is a basic intro chapter that describes the testing processes and differences between 
 RHCSA and RHCE.  This book covers study material for both exams. The RHCSA exam is covered in 
-Chapters 1-9. - Acquiring Red Hat Linux can be done so through a paid subscription to Red Hat or 
+Chapters 1-9. 
+
+- Acquiring Red Hat Linux can be done so through a paid subscription to Red Hat or 
 using a third-party rebuild (CentOS).  CentOS is functionally identical to RHEL without access to 
-subscription management. - RHCSA requires the configuration of a physical machine as virtual 
+subscription management. 
+
+- RHCSA requires the configuration of a physical machine as virtual 
 host. 
 
 - Minimum partitioning scheme:
