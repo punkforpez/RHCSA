@@ -1,5 +1,8 @@
 # RHCSA Study Guide
-![RedHat Logo](/images/Logo.svg)
+![RedHat Logo](/images/Logo.svg =60x)
+
+### Journal
+- [Brad's Journal](/Documents/Journal.md)
 
 ### Beginning Checklist
 - VM of CentOS 7 (Gnome)
