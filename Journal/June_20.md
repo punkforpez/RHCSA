@@ -1,6 +1,6 @@
 # Spending Time With Systemd
 
-Today was a bit of a challening day at work so I wanted to come home and immediately crack into some RHCSA studying.
+Today was a bit of a challenging day at work so I wanted to come home and immediately crack into some RHCSA studying.
 
 I have been spending a lot of time working on my method of study and have really come to embrace the Pomodoro technique.  It's just really nice to be able to kind of control things in small chunks while I'm studying - it helps to keep a more cohesive flow for me and prevents me from getting distracted as easily.
 
