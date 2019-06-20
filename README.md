@@ -1,12 +1,15 @@
 # RHCSA Study Guide
-![RedHat Logo](/images/Logo.svg =60x)
+![RedHat Logo](/images/Logo.svg)
 
 ### Journal
 - [Brad's Journal](/Documents/Journal.md)
 
 ### Beginning Checklist
-- VM of CentOS 7 (Gnome)
-- VM of CentOS 7 (minimal/command line)
+- [x] [Buy Physical Book](https://www.amazon.com/RHCSA-Linux-Certification-Study-Seventh/dp/0071841962/ref=pd_lpo_sbs_14_t_0/143-8220760-8024209?_encoding=UTF8&psc=1&refRID=VESF93Q4RZM3E9YSP3QM)
+- [x] VM of CentOS 7 (Gnome)
+- [x] VM of CentOS 7 (minimal/command line)
+- [x] Functioning bare-metal CentOS 7
+- [ ] Functioning bare-metal RHEL 8
 
 ## Document Links (repo)
 
