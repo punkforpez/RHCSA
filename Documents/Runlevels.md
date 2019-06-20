@@ -67,7 +67,7 @@ Examples:
 And if you want to change the Current Target in the current session:
 
 ```
-# systemctl isolate *name*.target
+# systemctl isolate [name].target
 ```
 
 
