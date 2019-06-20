@@ -1,5 +1,5 @@
 # RHCSA Study Guide
-![RedHat Logo](/images/Logo.svg)
+![RedHat Logo](/images/redhat.png)
 
 ### Journal
 - [Brad's Journal](/Documents/Journal.md)
