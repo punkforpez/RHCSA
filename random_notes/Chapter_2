@@ -1,3 +1,16 @@
 ** To enable X-11 forwarding over ssh **
 
 $ ssh -X root@server virt-manager
+
+Network outline for test network needed per Ch. 2
+
+	Domain 1	example.com
+	Clients		server1
+			tester1
+	IP		192.168.122.0/24
+
+	Domain 2	example.org
+	Client		outsider1
+	IP		192.168.100.0/24
+
+	** For a total 3 VMs.  Server1 should be configured with minimal install w/GUI **
