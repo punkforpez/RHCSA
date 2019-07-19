@@ -1,6 +1,6 @@
 ** To enable X-11 forwarding over ssh **
-
-$ ssh -X root@server virt-manager
+	
+	$ ssh -X root@server virt-manager
 
 Network outline for test network needed per Ch. 2
 
@@ -47,3 +47,4 @@ virt-clone
 	-make sure system being cloned is shutdown
 	-if on a production network, it is best to boot to clone machine's rescue target
 		*this is to enable modification of hostname and ip address
+	-when cloning a machine with multiple disks, each one must be specified with the --file switch
