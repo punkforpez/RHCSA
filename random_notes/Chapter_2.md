@@ -5,13 +5,13 @@
 ## Network outline for test network needed per Ch. 2
 
 	Domain 1		example.com
-	Clients		 server1
+	Clients		    server1
 					tester1
-	IP			  192.168.122.0/24
+	IP			    192.168.122.0/24
 
 	Domain 2	    example.org
-	Client		  outsider1
-	IP			  192.168.100.0/24
+	Client		    outsider1
+	IP			    192.168.100.0/24
     
 	** For a total 3 VMs.  Server1 should be configured with minimal install w/GUI **
 
@@ -27,19 +27,19 @@
 		--disk		 		Defines the virtual disk
 		-l(--location) 		Specifies directory or URL of install files
 		--graphics	 		Graphical display (vnc, spice, and none)
-		-x(--extra-args=)	  Includes extra data, such as URL of a Kickstart file
+		-x(--extra-args=)	Includes extra data, such as URL of a Kickstart file
 
 ##### virsh
 - command line installer
 - when run alone it will start it's own prompt
 - type 'help' to show options
 - useful virsh commands:
-		autostart <domain>	configures domain to start with host boot
+		autostart <domain>	  configures domain to start with host boot
 		capabilities		  list capabilities of local hypervisor
-		edit <domain>		 edits XML configuration for domain
-		list --all		    lists all domains
-		start <domain>		boots given domain
-		shutdown <domain>	 shuts down given domain
+		edit <domain>		  edits XML configuration for domain
+		list --all		      lists all domains
+		start <domain>		  boots given domain
+		shutdown <domain>	  shuts down given domain
 		destroy <domain>	  immediate shutdown of a domain
 
 ##### virt-clone
