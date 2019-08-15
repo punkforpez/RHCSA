@@ -2,6 +2,7 @@
 
     $ ssh -X root@server virt-manager
 
+
 ## Network outline for test network needed per Ch. 2
 
 | Domain 1 | example.com       |
